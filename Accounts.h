@@ -11,7 +11,7 @@ private:
 	char* description;
 public:
 	Accounts();
-	Accounts(int day, int sum, char* type, char* description);
+	Accounts(int day, int sum, const char* type, const char* description);
 	Accounts(const Accounts& a);
 	~Accounts();
 	int get_day();
@@ -20,8 +20,8 @@ public:
 	char* get_description();
 	void set_day(int day);
 	void set_sum(int sum);
-	void set_type(char* type);
-	void set_description(char* description);
+	void set_type(const char* type);
+	void set_description(const char* description);
 	Accounts& operator=(const Accounts& c);
 	bool operator==(const Accounts& c);
 	friend ostream& operator<<(ostream& os, const Accounts& a);

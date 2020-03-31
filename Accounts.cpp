@@ -13,7 +13,7 @@ Accounts::Accounts()
 	this->description = NULL;
 }
 
-Accounts::Accounts(int day, int sum, char* type, char* description)
+Accounts::Accounts(int day, int sum, const char* type, const char* description)
 {
 	this->day = day;
 	this->sum = sum;
@@ -79,7 +79,7 @@ void Accounts::set_sum(int sum)
 	this->sum = sum;
 }
 
-void Accounts::set_type(char* type)
+void Accounts::set_type(const char* type)
 {
 	if (this->type != NULL)
 	{
@@ -90,7 +90,7 @@ void Accounts::set_type(char* type)
 	strcpy_s(this->type, strlen(type) + 1, type);
 }
 
-void Accounts::set_description(char* description)
+void Accounts::set_description(const char* description)
 {
 	if (this->description != NULL)
 	{
@@ -117,6 +117,6 @@ bool Accounts::operator==(const Accounts& a)
 
 ostream& operator<<(ostream& os, const Accounts& a)
 {
-	os << "Day: " << a.day << "\nSum: " << a.sum << "\nType: " << a.type << "\nDescription: " << a.description;
+	os <<"Cheltuiala:\n" "Day: " << a.day << " Sum: " << a.sum << " Type: " << a.type << " Description: " << a.description<<"\n";
 	return os;
 }

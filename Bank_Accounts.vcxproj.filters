@@ -15,40 +15,50 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Accounts_lab5.cpp">
+    <ClCompile Include="RepoSTL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="App_lab5.cpp">
+    <ClCompile Include="Accounts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Repo_lab5.cpp">
+    <ClCompile Include="App.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Service_lab5.cpp">
+    <ClCompile Include="Repo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tests_lab5.cpp">
+    <ClCompile Include="Service.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="UI_lab5.cpp">
+    <ClCompile Include="Tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Accounts_lab5.h">
+    <ClInclude Include="RepoSTL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Repo_lab5.h">
+    <ClInclude Include="Accounts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Service_lab5.h">
+    <ClInclude Include="Repo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Tests_lab5.h">
+    <ClInclude Include="Service.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="UI_lab5.h">
+    <ClInclude Include="Tests.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bank_Accounts.in" />
+    <None Include="Bank_Accounts.out" />
   </ItemGroup>
 </Project>

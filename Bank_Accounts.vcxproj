@@ -85,7 +85,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -138,19 +138,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Accounts_lab5.cpp" />
-    <ClCompile Include="App_lab5.cpp" />
-    <ClCompile Include="Repo_lab5.cpp" />
-    <ClCompile Include="Service_lab5.cpp" />
-    <ClCompile Include="Tests_lab5.cpp" />
-    <ClCompile Include="UI_lab5.cpp" />
+    <ClCompile Include="Accounts.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="RepoSTL.cpp" />
+    <ClCompile Include="Repo.cpp" />
+    <ClCompile Include="Service.cpp" />
+    <ClCompile Include="Tests.cpp" />
+    <ClCompile Include="UI.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Accounts_lab5.h" />
-    <ClInclude Include="Repo_lab5.h" />
-    <ClInclude Include="Service_lab5.h" />
-    <ClInclude Include="Tests_lab5.h" />
-    <ClInclude Include="UI_lab5.h" />
+    <ClInclude Include="Accounts.h" />
+    <ClInclude Include="RepoSTL.h" />
+    <ClInclude Include="Repo.h" />
+    <ClInclude Include="Service.h" />
+    <ClInclude Include="Tests.h" />
+    <ClInclude Include="UI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bank_Accounts.in" />
+    <None Include="Bank_Accounts.out" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
